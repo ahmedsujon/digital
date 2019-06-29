@@ -1,0 +1,28 @@
+@media (max-width: 991px) {
+    .header-section .navbar.navbar-dark .nav-link {
+        display: inline-block;
+        margin-left: 0;
+        text-align: center;
+    }
+    .navbar-nav {
+        background: #da349a;
+        text-align: center;
+    }
+	.slider-section::after {
+		width: 0;
+	}
+    .portfolio-item {
+        width: 33.33%;
+    }
+    
+}
+@media (max-width: 767px) {
+    .portfolio-item {
+        width: 50%;
+    }
+}
+@media (max-width: 575px) {
+    .portfolio-item {
+        width: 100%;
+    }
+}
